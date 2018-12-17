@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  margin: 40px 15px 15px 15px;
+  height: 250px;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-footer {
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  text-align: center;
+}
+.card-footer a:hover {
+  text-decoration: none;
+}
