@@ -1,4 +1,4 @@
-img {
+.col-sm-12 img {
   margin-top: 10vh;
   margin-left: 10vw;
   box-shadow: 0 14px 28px rgba(0,0,0,0.40), 0 10px 10px rgba(0,0,0,0.40);
@@ -29,7 +29,12 @@ img {
 }
 p {
   font-family: 'Roboto', sans-serif;
+  font-size: 1vw;
 }
 .btn {
   font-family: 'Roboto', sans-serif;
 }
+@media (max-width: 575.98px) {
+  p { font-size: 3vw;
+    }
+  }

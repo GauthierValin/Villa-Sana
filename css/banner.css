@@ -23,10 +23,10 @@
   bottom: 26vh;
 }
 nom {
-  font-size: 16vh;
+  font-size: 8vw;
   font-family: 'Lobster', cursive;
   color: white;
-  opacity: 0.9;
+  opacity: 0.8;
   text-shadow: 0 14px 28px rgba(0,0,0,0.40), 0 10px 10px rgba(0,0,0,0.40);
 }
 #accroche {
@@ -35,10 +35,10 @@ nom {
   bottom: 18vh;
 }
 accroche {
-  font-size: 8vh;
+  font-size: 4vw;
   font-family: 'Lobster', cursive;
   color: white;
-  opacity: 0.9;
+  opacity: 0.8;
   text-shadow: 0 14px 28px rgba(0,0,0,0.40), 0 10px 10px rgba(0,0,0,0.40);
 }
 .links {
@@ -67,3 +67,4 @@ accroche {
   text-decoration: none;
   color: #6C5D5B;
 }
+
