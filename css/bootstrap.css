@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #006AD5;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -592,8 +592,6 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 .no-gutters {
@@ -2334,14 +2332,15 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #6C5D5B;
+  border-color: #6C5D5B;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #E0C8AD;
+  border-color: #E0C8AD;
+  color: #6C5D5B;
 }
 
 .btn-primary:focus, .btn-primary.focus {

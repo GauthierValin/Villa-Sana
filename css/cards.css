@@ -1,21 +1,35 @@
-.row {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+img {
+  margin-top: 10vh;
+  margin-left: 10vw;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.40), 0 10px 10px rgba(0,0,0,0.40);
+  max-width: 100%;
 }
-.card {
-  margin: 40px 15px 15px 15px;
-  height: 250px;
-  background-size: cover !important;
-  background-position: center;
-  color: white;
-  position: relative;
+.card-text-left {
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 10vh;
+  letter-spacing: 3px;
+  max-width: 100%;
+  font-family: 'Lobster', cursive;
+  text-align: left;
 }
-.card-footer {
-  font-family: 'Indie Flower', cursive;
-  font-size: 24px;
-  text-align: center;
+.card-text-right {
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 10vh;
+  letter-spacing: 3px;
+  max-width: 100%;
+  font-family: 'Lobster', cursive;
+  text-align: left;
 }
-.card-footer a:hover {
-  text-decoration: none;
+.modal {
+  font-family: 'Lobster', cursive;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+.btn {
+  font-family: 'Roboto', sans-serif;
 }

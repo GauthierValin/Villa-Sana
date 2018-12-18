@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/cards.css">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
@@ -22,27 +23,170 @@
   </head>
   <body>
     <div id="navbar">
+      <a href="#description">Description</a>
+      <a href="#location">Location</a>
+      <a href="#activités">Activités</a>
     </div>
     <div class="banner" style="background-image: url('https://res.cloudinary.com/gauthiervalin/image/upload/v1545120932/Villa%20Sana/banner-back.jpg');">
     </div>
     <div class="banner-banner" style="background-image: url('https://res.cloudinary.com/gauthiervalin/image/upload/v1545120932/Villa%20Sana/banner-front.jpg')">
+      <div class="links">
       <a href="https://www.tripadvisor.fr/Home-g293736" target="_blank"><i class="fab fa-tripadvisor"></i></a>
       <a href="https://www.google.fr/maps/place/Riad+Sana/@33.885864,-7.0176717,17z/data=!4m12!1m6!3m5!1s0xda70bed5860a017:0x22af14ca154fecef!2sRiad+Sana!8m2!3d33.8859754!4d-7.0176046!3m4!1s0xda70bed5860a017:0x22af14ca154fecef!8m2!3d33.8859754!4d-7.0176046" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+      </div>
+      <div id="title">
+        <nom>La Villa Sana</nom>
+      </div>
+      <div id="accroche">
+        <accroche>Un havre de paix à proximité de Rabat.</accroche>
+      </div>
+
+      <!-- <div class="card-banner">
+        <h2>La "Villa Sana"</h2>
+      </div> -->
     </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <img src="https://res.cloudinary.com/gauthiervalin/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,w_500/v1545069226/IMG_1467.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card-text-left">
+            <h2>Villa "Riad Sana"</h2>
+          <p>Très belle villa entièrement rénovée les pieds dans l’eau : piscine 15x5m, grand jardin verdoyant, accès direct à la plage avec très belle vue sur mer, meublée avec goût, dans un quartier calme et hautement sécurisé.</p>
+          <p>Située entre Rabat (14kms) et Casablanca (80kms), à 3 kms d’une entrée d'autoroute, elle est à moins de 3 heures de voiture des plus grandes villes du Maroc.</p>
+          <p>Convient bien pour des vacances entre amis avec enfants.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#mobilier">
+            Mobilier et équipement
+          </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6" id="description">
+          <div class="card-text-right">
+            <h5>Villa 12 personnes (15 avec studio complémentaire)</h5>
+            <p>Villa 7 pièce(s) sur 2 niveaux avec 5 chambres, 2 grands séjours/salons, une grande cuisine, 4 salles de bains, 4 WC, lingerie, 3 terrasses. Garage 2 voitures</p>
+            <p>Surface habitable : 330 m2, Jardin et terrasses 1000 m2 – Piscine 70 m2 (14,5 x 5)</p>
+            <p>Date de construction : 1975 – Dernière grosse rénovation : 2017</p>
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#annexe">
+            Annexe
+          </button>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <img src="https://res.cloudinary.com/gauthiervalin/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,w_500/v1545067356/IMG_1473.jpg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <img src="https://res.cloudinary.com/gauthiervalin/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,w_500/v1545143428/IMG_2452.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6" id="location">
+          <div class="card-text-left">
+            <h5>Studio complémentaire - 3/4 couchages</h5>
+            <p>Studio individuel attenant à la villa: chambre (lit 2 places), salon marocain (3 banquettes), sdb.
+            </p>
+            <p>Le studio est mis à disposition au-delà de 12 occupants.</p>
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#locations">Conditions de la location
+          </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6" id="activités">
+          <div class="card-text-right">
+            <h5>Plage : </h5>
+            <p>- devant la villa ou à quelques centaines de mètres selon que vous aimiez une plage abritée et sans danger ou les vagues de l’océan (Oued Yquem – plage plus dangereuse)</p>
+            <h5>Surf : </h5>
+            <p>- un très beau spot devant la villa. Cours de surf l’été à 3 kms.</p>
+            <h5>Cheval-Equitation : </h5>
+            <p>- un des meilleurs clubs d’équitation de Rabat se trouve à 500 m. Beaux chevaux, une équipe de qualité pour des prix très abordables.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <img src="https://res.cloudinary.com/gauthiervalin/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,w_500/v1545150630/IMG_0819.jpg" alt="">
+        </div>
+      </div>
+      <!-- Modal -->
+          <div class="modal fade" id="mobilier" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="exampleModalCenterTitle">Mobilier et équipement</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h5>Literie : </h5>
+                  <p>4 lits 2 places - 4 lits 1 place dont 2 superposés – 2 canapés convertibles (110 cm) dans salon à l’étage - 2 lits bébé - draps - linge de toilette.</p>
+                  <h5>Mobilier intérieur : </h5>
+                  <p>4 salons – 2 tables à manger avec nombreuses chaises.</p>
+                  <h5>Mobilier extérieur : </h5>
+                  <p>tables et chaises en teck 12 places sur terrasse - salon de jardin - chaises longues.</p>
+                  <h5>Equipements : </h5>
+                  <p>lave-linge, lave-vaisselle, réfrigérateur, congélateurs, cuisinière gaz, four, micro-onde, cafetière, grille pain, bouilloire électrique, fer à repasser, ustensiles de cuisines, vaisselle, machine à café Nespresso.</p>
+                  <p>Télévision - Coffre fort à code</p>
+                  <p>Internet fibre optique avec routeur WiFi</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- <script>
-    window.onscroll = function() {myFunction()};
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-    </script> -->
+          <div class="modal fade" id="annexe" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="exampleModalCenterTitle">Services annexes</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h4>Climatisation</h4>
+                  <p>La villa possède des climatiseurs réversibles (froid et chaleur) dans les salons et les chambres sur mer et 3 chauffages gaz catalyse mobiles.</p>
+                  <p>En été, la climatisation n’est pas vraiment nécessaire, la température extérieure étant rarement au dessus de 27°. Elle peut s’avérer utile en hiver.</p>
+                  <h4>Services annexes :</h4>
+                  <p>Une femme de service est incluse dans location. Elle sera avec vous de 9h à 18h pour effectuer les tâches ménagères. Elle ne fait pas la cuisine mais peut aider.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="locations" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="exampleModalCenterTitle">Conditions de la location</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h4>Contrat de location</h4>
+                  <p>La location est en principe consentie à la semaine, du samedi au samedi.</p>
+                  <p>Un contrat de location est envoyé par mail et doit être retourné signé par tout moyen (mail, fax ou courrier), accompagné d’une copie de la carte d’identité ou passeport du preneur.</p>
+                  <p>Le nombre de personnes autorisées à loger dans la villa est celui qui figure dans le contrat de location.</p>
+                  <p>Communiquez le nom est l’adresse du locataire pour l’établissement du contrat, ainsi qu’une copie de passeport ou de carte d’identité.</p>
+                  <h4>Montant du loyer</h4>
+                  <p>Le loyer inclut toutes les charges ainsi qu’une employée de service pendant toute la durée du séjour.</p>
+                  <p>Le loyer varie selon les saisons. Consulter l’annonce sur le site de location</p>
+                  <p>Pour les groupes supérieurs à 12 personnes, un complément de loyer est demandé et le studio attenant à la villa est mis à disposition</p>
+                  <h4>Règlement du loyer :</h4>
+                  <p>* Acompte à la réservation de 50% du prix. Solde avant l’entrée dans les lieux avec une caution de 500 € (restituée au départ).</p>
+                  <h4>Restrictions</h4>
+                  <p>* Interdiction d’organiser des fêtes ou des célébrations,</p>
+                  <p>* Interdiction de faire des photos ou tourner des films susceptibles d’une utilisation commerciale,</p>
+                  <p>* Interdiction de fumer dans les chambres,</p>
+                  <p>* Animaux non autorisés</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>

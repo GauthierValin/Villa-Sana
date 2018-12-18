@@ -3,35 +3,67 @@
   height: calc(100vh - 70px);
   background-size: cover !important;
   background-position: center;
-  opacity: 0.1;
-}
-.banner h1 {
-  font-family: 'Indie Flower', cursive;
-  font-size: 15vh;
-  position: absolute;
-  right: 1vw;
+  opacity: 0.4;
 }
 .banner-banner {
   position: absolute;
-  top: 17.5vh;
+  top: 12.5vh;
   left: 4.4vw;
   width: 90vw;
-  height: 70vh;
+  height: 80vh;
   background-size: cover !important;
   background-position: center;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.40), 0 10px 10px rgba(0,0,0,0.40);
+  border-radius: 4px;
 
 }
-.banner-banner {
-    -webkit-box-shadow: 7px 7px 8px 4px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    7px 7px 8px 4px #ccc;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         7px 7px 8px 4px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+#title {
+  position: absolute;
+  left: 12vh;
+  bottom: 26vh;
 }
-a {
+nom {
+  font-size: 16vh;
+  font-family: 'Lobster', cursive;
   color: white;
-  font-size: 4vh;
+  opacity: 0.9;
+  text-shadow: 0 14px 28px rgba(0,0,0,0.40), 0 10px 10px rgba(0,0,0,0.40);
 }
-a:hover {
+#accroche {
+  position: absolute;
+  left: 8vh;
+  bottom: 18vh;
+}
+accroche {
+  font-size: 8vh;
+  font-family: 'Lobster', cursive;
+  color: white;
+  opacity: 0.9;
+  text-shadow: 0 14px 28px rgba(0,0,0,0.40), 0 10px 10px rgba(0,0,0,0.40);
+}
+.links {
+  position: absolute;
+  bottom: 3vh;
+  right: 3vw;
+}
+.card-banner {
+  position: absolute;
+  bottom: 10vh;
+  right: 20vw;
+  width: 15vw;
+  height: 40vh;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  font-family: 'Roboto', sans-serif;
+}
+.banner-banner a {
+  color: white;
+  font-size: 6vh;
+  margin-left: 1vw;
+  text-shadow: 0 14px 28px rgba(0,0,0,0.40), 0 10px 10px rgba(0,0,0,0.40);
+}
+.banner-banner a:hover {
   text-decoration: none;
-  color: lightgrey;
+  color: #6C5D5B;
 }
-
