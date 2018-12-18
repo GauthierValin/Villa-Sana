@@ -1,10 +1,37 @@
 .banner {
   color: white;
-  text-align: center;
   height: calc(100vh - 70px);
   background-size: cover !important;
   background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  opacity: 0.1;
 }
+.banner h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 15vh;
+  position: absolute;
+  right: 1vw;
+}
+.banner-banner {
+  position: absolute;
+  top: 17.5vh;
+  left: 4.4vw;
+  width: 90vw;
+  height: 70vh;
+  background-size: cover !important;
+  background-position: center;
+
+}
+.banner-banner {
+    -webkit-box-shadow: 7px 7px 8px 4px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    7px 7px 8px 4px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         7px 7px 8px 4px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+a {
+  color: white;
+  font-size: 4vh;
+}
+a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
